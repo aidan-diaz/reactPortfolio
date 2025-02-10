@@ -2,7 +2,10 @@
   box-sizing: border-box;
 }
 
-html {
-  background-color: gray;
+.darkMode {
+  background-color: darkgray;
+}
 
+.lightMode {
+  background-color: lightgray;
 }
