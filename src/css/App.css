@@ -27,6 +27,7 @@ header {
   height: 100px;
   margin: 0 10%;
   display: flex;
+  flex-wrap: wrap-reverse;
   justify-content: space-between;
   align-items: center;
 }
@@ -39,6 +40,13 @@ a {
 ul {
   display: flex;
   gap: 40px;
+}
+
+/* TOGGLE BUTTON */
+
+.toggleButton {
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
 /* DARK/LIGHT MODE TOGGLE CLASSES */
