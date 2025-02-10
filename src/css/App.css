@@ -32,11 +32,12 @@ html {
 /* DARK/LIGHT MODE TOGGLE CLASSES */
 
 .darkMode {
-  background-color: blue;
+  background-color: #211f7a;
+  color: lightgray;
 }
 
 .lightMode {
-  background-color: lightblue;
+  background-color: lightgray;
 }
 
 /* HEADER */
