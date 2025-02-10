@@ -1,3 +1,5 @@
+import { SubmitButton } from "./SubmitButton"
+
 const Contact = () => {
     return (
         <section className='contactFormSection'>
@@ -10,7 +12,7 @@ const Contact = () => {
                 <div className='senderMessage'>
                     <textarea name='message' placeholder='Message' />
                 </div>
-                {/* submit button goes here */}
+                <SubmitButton />
             </form>
         </section>
     )
