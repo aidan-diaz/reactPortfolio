@@ -1,8 +1,12 @@
+import { DarkModeButton } from "./DarkModeButton"
+
 const Header = () => {
     return (
         <header>
-            Hello!
+            <h2>Hello!</h2>
+            <DarkModeButton />
         </header>
+        
     )
 }
 
