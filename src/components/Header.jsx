@@ -18,7 +18,7 @@ const Header = ({ darkMode, toggleMode }) => {
         },
         {
             className: 'bi bi-envelope',
-            link: 'diaz.aidan.d@gmail.com'
+            link: 'mailto:diaz.aidan.d@gmail.com'
         }
     ]
 
