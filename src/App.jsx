@@ -49,7 +49,7 @@ function App() {
         <Project projectInfo={portfolioPieces[2]} />
       </section>
       <About />
-      <Contact />
+      <Contact darkMode={darkMode} />
       <Footer />
     </div>
   )

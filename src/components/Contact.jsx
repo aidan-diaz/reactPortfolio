@@ -1,6 +1,7 @@
 import { SubmitButton } from "./SubmitButton"
 
-const Contact = () => {
+const Contact = ({ darkMode }) => {
+    console.log('Contact', darkMode)
     return (
         <section className='contactFormSection'>
             <h3 className='contactFormTitle'>Please Contact me Below with any Questions!</h3>
@@ -12,7 +13,7 @@ const Contact = () => {
                 <div className='senderMessage'>
                     <textarea name='message' placeholder='Message' />
                 </div>
-                <SubmitButton />
+                <SubmitButton darkMode={ darkMode } />
             </form>
         </section>
     )

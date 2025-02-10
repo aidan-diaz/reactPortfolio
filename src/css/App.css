@@ -175,6 +175,15 @@ textarea {
   border-radius: 10px;
 }
 
+/* SUBMIT BUTTON */
+
+.submitButton {
+  width: 20%;
+  height: 75px;
+  border: 2.5px solid black;
+  border-radius: 10px;
+}
+
 /* FOOTER */
 
 footer {

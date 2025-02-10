@@ -1,7 +1,10 @@
-const SubmitButton = () => {
+const SubmitButton = ({ darkMode }) => {
+    console.log('button', darkMode)
+    const submitButtonClasses = `submitButton ${darkMode ? 'lightMode' : 'darkMode'}`
     return (
-        <button className='submitButton'>Send Message</button>
+        <button className={submitButtonClasses}>Send Message</button>
     )
 }
+
 
 export { SubmitButton }
