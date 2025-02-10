@@ -27,7 +27,7 @@ function App() {
 
 
   return (
-    <div className={darkMode ? 'darkMode' : 'lightMode'}>
+    <div id='container' className={darkMode ? 'darkMode' : 'lightMode'}>
       <Header darkMode={darkMode} toggleMode={toggleMode} />
       <h1>This is my portfolio</h1>
       <About />
