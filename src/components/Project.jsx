@@ -6,7 +6,7 @@ const Project = (props) => {
     return (
         <div className='projectContainer'>
             <h2>Project {props.projectInfo.name}</h2>
-            <Thumbnail image={props.projectInfo} />
+            <Thumbnail image={props.projectInfo.imgSrc} link={props.projectInfo.link} />
         </div>
     )
 }

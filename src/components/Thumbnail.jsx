@@ -1,6 +1,10 @@
 const Thumbnail = (props) => {
     return (
-        <img className='projectThumbnail' src={props.image.imgSrc} alt={props.image.altText} />
+        <a href={props.link} target='_blank'>
+            <div className='projectThumbnailContainer'>
+                <img className='projectThumbnail' src={props.image} alt={props.image.altText} />
+            </div>
+        </a>
     )
 }
 

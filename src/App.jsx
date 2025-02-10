@@ -17,17 +17,20 @@ function App() {
       {
         name: 'Tricky Trivia',
         imgSrc: 'trickyTriviaCover.png',
-        altText: 'Tricky Trivia Website'
+        altText: 'Tricky Trivia Website',
+        link: 'https://trickytrivia.netlify.app/videogames'
       },
       {
         name: 'Tech Talk',
         imgSrc: 'techTalkCover.png',
-        altText: 'Tech Talk Website'
+        altText: 'Tech Talk Website',
+        link: 'https://techtalk-w57j.onrender.com/'
       },
       {
         name: 'Christmas List',
         imgSrc: 'christmasListCover.png',
-        altText: 'Christmas List Website'
+        altText: 'Christmas List Website',
+        link: 'https://christmaslist-1wf8.onrender.com/'
       }
     ]
 
@@ -37,9 +40,11 @@ function App() {
       <Header darkMode={darkMode} toggleMode={toggleMode} />
       <h1>This is my portfolio</h1>
       <About />
-      <Project projectInfo={portfolioPieces[0]} />
-      <Project projectInfo={portfolioPieces[1]} />
-      <Project projectInfo={portfolioPieces[2]} />
+      <section className='allProjectsContainer'>
+        <Project projectInfo={portfolioPieces[0]} />
+        <Project projectInfo={portfolioPieces[1]} />
+        <Project projectInfo={portfolioPieces[2]} />
+      </section>
     </div>
   )
 }
