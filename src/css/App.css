@@ -42,11 +42,22 @@ html {
 
 /* HEADER */
 
+/* INTRO SECTION */
+
+.introSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-size: 2rem;
+}
+
 /* HEADSHOT */
 
 .headshotContainer {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
 }
 
 .headshot {
@@ -54,7 +65,7 @@ html {
   max-width: 100%;
   max-height: 100%;
   width: auto;
-  height: 200px;
+  height: 250px;
 }
 
 /* PROJECTS */
