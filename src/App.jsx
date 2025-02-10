@@ -4,6 +4,7 @@ import { Header } from './components/Header.jsx'
 import { Intro } from './components/Intro.jsx'
 import { About } from './components/About.jsx'
 import { Project } from './components/Project.jsx'
+import { Footer } from './components/Footer.jsx'
 
 function App() {
 
@@ -47,6 +48,7 @@ function App() {
         <Project projectInfo={portfolioPieces[2]} />
       </section>
       <About />
+      <Footer />
     </div>
   )
 }
