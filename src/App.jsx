@@ -49,6 +49,7 @@ function App() {
         <Project projectInfo={portfolioPieces[2]} />
       </section>
       <About />
+      <Contact />
       <Footer />
     </div>
   )
