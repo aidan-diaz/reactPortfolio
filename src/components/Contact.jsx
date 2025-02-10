@@ -14,7 +14,7 @@ const Contact = ({ darkMode }) => {
                 <div className='senderMessage'>
                     <textarea name='message' placeholder='Message' />
                 </div>
-                <SubmitButton darkMode={ darkMode } value='Send Message' />
+                <SubmitButton darkMode={ darkMode } />
             </form>
         </section>
     )
