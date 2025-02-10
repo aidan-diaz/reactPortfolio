@@ -5,7 +5,7 @@ const Contact = ({ darkMode }) => {
     return (
         <section className='contactFormSection'>
             <h3 className='contactFormTitle'>Please Contact me Below with any Questions!</h3>
-            <form className='contactForm' method="POST" name='contact' netlify>
+            <form className='contactForm' method="POST" name='contact' data-netlify="true">
                 <input type="hidden" name="form-name" value="contact" />
                 <div className='senderInfo'>
                     <input type="text" name='name' placeholder='Name' />
