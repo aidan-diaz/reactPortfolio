@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './css/App.css'
 import { Header } from './components/Header.jsx'
+import { Intro } from './components/Intro.jsx'
 import { About } from './components/About.jsx'
 import { Project } from './components/Project.jsx'
 
@@ -38,14 +39,14 @@ function App() {
   return (
     <div id='container' className={darkMode ? 'darkMode' : 'lightMode'}>
       <Header darkMode={darkMode} toggleMode={toggleMode} />
-      <h1>This is my portfolio</h1>
-      <About />
+      <Intro />
       <h2 className='projectsSectionHeader'>Please Take a Look at my Past Work!</h2>
       <section className='allProjectsContainer'>
         <Project projectInfo={portfolioPieces[0]} />
         <Project projectInfo={portfolioPieces[1]} />
         <Project projectInfo={portfolioPieces[2]} />
       </section>
+      <About />
     </div>
   )
 }
