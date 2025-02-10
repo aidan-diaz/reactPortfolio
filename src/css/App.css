@@ -1,10 +1,35 @@
+/* BORDER BOX */
+
 * {
   box-sizing: border-box;
 }
 
-/* #container {
+/* ROOT ELEMENT
+
+#root {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 } */
+
+/* GENERAL FONT */
+
+*, html {
+  font-family: "Patrick Hand", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-size: 62.5%;
+}
+
+html {
+  font-size: 1.6rem;
+}
+
+/* DARK/LIGHT MODE TOGGLE CLASSES */
 
 .darkMode {
   background-color: blue;
@@ -12,6 +37,31 @@
 
 .lightMode {
   background-color: lightblue;
+}
+
+/* HEADER */
+
+/* ABOUT ME */
+
+.aboutMeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 40px;
+}
+
+.aboutMeParagraph {
+  width: 50%;
+  text-align: center;
+}
+
+/* PROJECTS */
+
+.projectsSectionHeader {
+  font-size: 2rem;
+  text-align: center;
+  margin: 5rem 0;
 }
 
 .allProjectsContainer {
@@ -27,8 +77,13 @@
 }
 
 .projectThumbnailContainer {
-  width: 500px;
-  height: 250px;
+  width: 400px;
+  height: 200px;
+}
+
+.projectTitle {
+  text-align: center;
+  font-size: 2rem;
 }
 
 .projectThumbnail {
@@ -37,5 +92,5 @@
   max-height: 100%;
   background-color: black;
   width: auto;
-  height: 250px;
+  height: 200px;
 }

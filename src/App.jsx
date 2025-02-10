@@ -40,6 +40,7 @@ function App() {
       <Header darkMode={darkMode} toggleMode={toggleMode} />
       <h1>This is my portfolio</h1>
       <About />
+      <h2 className='projectsSectionHeader'>Please Take a Look at my Past Work!</h2>
       <section className='allProjectsContainer'>
         <Project projectInfo={portfolioPieces[0]} />
         <Project projectInfo={portfolioPieces[1]} />
