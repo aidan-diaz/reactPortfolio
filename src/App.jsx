@@ -4,6 +4,7 @@ import { Header } from './components/Header.jsx'
 import { Intro } from './components/Intro.jsx'
 import { About } from './components/About.jsx'
 import { Project } from './components/Project.jsx'
+import { Contact } from './components/Contact.jsx'
 import { Footer } from './components/Footer.jsx'
 
 function App() {
