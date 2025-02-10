@@ -7,6 +7,18 @@ import { Project } from './components/Project.jsx'
 function App() {
   const [count, setCount] = useState(false)
 
+  const portfolioPieces =
+    [
+      {
+        name: 'Project One'
+      },
+      {
+        name: 'Project Two'
+      },
+      {
+        name: 'Project Three'
+      }
+    ]
 
 
   return (
@@ -14,9 +26,9 @@ function App() {
       <Header />
       <h1>This is my portfolio</h1>
       <About />
-      <Project />
-      <Project />
-      <Project />
+      <Project portfolioPiece={portfolioPieces[0]} />
+      <Project portfolioPiece={portfolioPieces[1]} />
+      <Project portfolioPiece={portfolioPieces[2]} />
     </>
   )
 }

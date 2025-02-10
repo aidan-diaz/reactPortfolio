@@ -1,7 +1,10 @@
-const Project = () => {
+import '../App.jsx'
+
+const Project = (props) => {
+    console.log(props)
     return (
         <div>
-            Project section
+        Project {props.portfolioPiece.name}
         </div>
     )
 }
