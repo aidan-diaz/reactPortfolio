@@ -23,3 +23,10 @@ Currently, two official plugins are available:
 
 1. npm run dev
 2. navigate to http://localhost:5173/
+
+
+## Future Goals
+
+- Set up form submissions for Netlify
+- Update responsiveness for mobile devices
+- Utilize local storage to save the mode set by the user
