@@ -5,12 +5,11 @@ import { About } from './components/About.jsx'
 import { Project } from './components/Project.jsx'
 
 function App() {
+
   const [darkMode, setMode] = useState(false)
 
   const toggleMode = () => {
-      console.log('Dark Mode was: ', darkMode)
-      darkMode ? setMode(false) : setMode(true)
-      console.log('Now Dark Mode is: ', darkMode)
+      setMode(!darkMode)
   }
 
   const portfolioPieces =
@@ -28,8 +27,8 @@ function App() {
 
 
   return (
-    <div className={ darkMode ? 'darkMode' : 'lightMode' }>
-      <Header toggleMode={toggleMode} />
+    <div className={darkMode ? 'darkMode' : 'lightMode'}>
+      <Header darkMode={darkMode} toggleMode={toggleMode} />
       <h1>This is my portfolio</h1>
       <About />
       <Project portfolioPiece={portfolioPieces[0]} />

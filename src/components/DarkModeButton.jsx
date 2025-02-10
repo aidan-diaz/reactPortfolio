@@ -1,7 +1,10 @@
-const DarkModeButton = (props) => {
-    console.log('Button Props:', props)
+import { useState } from 'react'
+
+const DarkModeButton = ({darkMode, toggleMode}) => {
+    console.log(darkMode)
+
     return (
-        <button onClick={ props.toggleMode }>Click Me</button>
+        <button onClick={ toggleMode }>Turn {darkMode ? 'off' : 'on'} Dark Mode</button>
     )
 
 }

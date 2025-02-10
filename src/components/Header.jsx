@@ -1,10 +1,11 @@
 import { DarkModeButton } from "./DarkModeButton"
 
-const Header = ({ toggleMode }) => {
+const Header = ({ darkMode, toggleMode }) => {
+
     return (
         <header>
             <h2>Hello!</h2>
-            <DarkModeButton toggleMode={ toggleMode } />
+            <DarkModeButton darkMode={darkMode} toggleMode={toggleMode} />
         </header>
         
     )

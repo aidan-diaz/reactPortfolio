@@ -2,10 +2,14 @@
   box-sizing: border-box;
 }
 
+#root {
+  height: 1000px;
+}
+
 .darkMode {
-  background-color: darkgray;
+  background-color: rgb(47, 47, 255);
 }
 
 .lightMode {
-  background-color: lightgray;
+  background-color: lightblue;
 }
