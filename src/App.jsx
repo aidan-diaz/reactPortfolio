@@ -15,13 +15,19 @@ function App() {
   const portfolioPieces =
     [
       {
-        name: 'Project One'
+        name: 'Tricky Trivia',
+        imgSrc: 'trickyTriviaCover.png',
+        altText: 'Tricky Trivia Website'
       },
       {
-        name: 'Project Two'
+        name: 'Tech Talk',
+        imgSrc: 'techTalkCover.png',
+        altText: 'Tech Talk Website'
       },
       {
-        name: 'Project Three'
+        name: 'Christmas List',
+        imgSrc: 'christmasListCover.png',
+        altText: 'Christmas List Website'
       }
     ]
 
@@ -31,9 +37,9 @@ function App() {
       <Header darkMode={darkMode} toggleMode={toggleMode} />
       <h1>This is my portfolio</h1>
       <About />
-      <Project portfolioPiece={portfolioPieces[0]} />
-      <Project portfolioPiece={portfolioPieces[1]} />
-      <Project portfolioPiece={portfolioPieces[2]} />
+      <Project projectInfo={portfolioPieces[0]} />
+      <Project projectInfo={portfolioPieces[1]} />
+      <Project projectInfo={portfolioPieces[2]} />
     </div>
   )
 }
