@@ -24,11 +24,16 @@ html {
 /* HEADER */
 
 header {
-  width: 95%;
   height: 100px;
+  margin: 0 10%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
 }
 
 /* DARK/LIGHT MODE TOGGLE CLASSES */
